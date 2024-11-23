@@ -1,10 +1,74 @@
 Changelog
 ---------
 
-master
+v2.2.2
 ------
 
-(`#109 <https://github.com/OMS-NetZero/FAIR/pull/109>`_) Fixes error when running inverse_fair_scm with a scalar F_in value.
+(`#170 <https://github.com/OMS-NetZero/FAIR/pull/170>`_) Fix to the radiative forcing scale factor in aerosol-radiation interactions (`#168 <https://github.com/OMS-NetZero/FAIR/issues/168>`_)
+
+(`#169 <https://github.com/OMS-NetZero/FAIR/pull/169>`_) Removed logging messages which were too annoying and slowed down overrides in all but default cases (`#162 <https://github.com/OMS-NetZero/FAIR/issues/162>`_)
+
+v2.2.1
+------
+
+(`#167 <https://github.com/OMS-NetZero/FAIR/pull/167>`_) Add support for python 3.13
+
+(`#163 <https://github.com/OMS-NetZero/FAIR/pull/163>`_) Fixed bug with calibrated constained example (`#161 <https://github.com/OMS-NetZero/FAIR/issues/161>`_)
+
+v2.2.0
+------
+
+(`#125 <https://github.com/OMS-NetZero/FAIR/pull/125>`_) Stratospheric water vapour forcing is now a function of concentration or emissions, rather than forcing
+
+(`#158 <https://github.com/OMS-NetZero/FAIR/pull/158>`_) Add `fair` to `conda-forge`
+
+(`#155 <https://github.com/OMS-NetZero/FAIR/pull/155>`_) Implement general CSV filling function
+
+(`#153 <https://github.com/OMS-NetZero/FAIR/pull/153>`_) Add support for python 3.12
+
+(`#134 <https://github.com/OMS-NetZero/FAIR/pull/134>`_) Increase code coverage to 100%
+
+v2.1.4
+------
+
+(`#152 <https://github.com/OMS-NetZero/FAIR/pull/152>`_) Fix bug in reading in species_configs CSV file when either ch4 or aci are omitted
+
+(`#150 <https://github.com/OMS-NetZero/FAIR/pull/150>`_) Reformat for black update
+
+(`#149 <https://github.com/OMS-NetZero/FAIR/pull/149>`_) Add nightly tests
+
+
+v2.1.3
+------
+
+(`#147 <https://github.com/OMS-NetZero/FAIR/pull/147>`_) Remove support for python 3.7
+
+(`#146 <https://github.com/OMS-NetZero/FAIR/pull/146>`_) Restarts for ocean heat content working correctly
+
+v2.1.2
+------
+
+(`#138 <https://github.com/OMS-NetZero/FAIR/pull/138>`_) Zenodo DOI error when using `pooch` fixed
+
+v2.1.1
+------
+
+(`#118 <https://github.com/OMS-NetZero/FAIR/pull/118>`_) Development branch merged in
+
+(`#130 <https://github.com/OMS-NetZero/FAIR/issues/130>`_) Fixed breaking change in xarray 2023.9.0
+
+(`#127 <https://github.com/OMS-NetZero/FAIR/pull/127>`_) Add a calibrated, constrained example to the documentation
+
+(`#121 <https://github.com/OMS-NetZero/FAIR/pull/121>`_) Make `FAIR.ghg_forcing_offset` an attribute
+
+(`#120 <https://github.com/OMS-NetZero/FAIR/pull/120>`_) Fix a weird bug with scipy-1.10 and linear algebra. Remove support for python 3.6, add support for 3.11
+
+v2.1.0
+------
+
+(`#112 <https://github.com/OMS-NetZero/FAIR/pull/112>`_) Write docs for v2.1
+
+(`#111 <https://github.com/OMS-NetZero/FAIR/pull/111>`_) Large overhaul of FaIR including adding most features from v2.0.0-alpha, plus species-dependent methane lifetime and new interface
 
 v1.6.4
 ------
